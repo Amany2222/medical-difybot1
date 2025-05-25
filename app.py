@@ -13,8 +13,8 @@ st.markdown("---")
 st.markdown("### 🤖 Chat with the Bot Below:")
 
 # Embed the Dify chat UI
-dify_url = "https://api.dify.ai/v1"
+dify_url = "https://api.dify.ai/v1/chat-messages"
 st.components.v1.iframe(dify_url, height=600, scrolling=True)
 
 st.markdown("---")
-st.caption("Built by Salma | Powered by Dify + Streamlit")
+st.caption("Built by Amany | Powered by Dify + Streamlit")
