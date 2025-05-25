@@ -21,7 +21,7 @@ if user_input:
 
     # Call the Dify API (replace the values with your real API URL and key)
     api_url = "https://api.dify.ai/v1/chat-messages"
-    api_key = "https://api.dify.ai/v1/chat-messages"  # 
+    api_key = "app-xMPlnMcO01NGxpelaC8QbL9W"  # 
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
